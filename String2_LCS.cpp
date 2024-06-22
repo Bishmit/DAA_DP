@@ -13,7 +13,6 @@ int main() {
     const int M = s.length();
     const int N = k.length();
 
-    // Initialize a 2D vector of size (M+1) x (N+1) with all elements set to 0
     vector<vector<int>> arr(M+2, vector<int>(N+2, 0)); 
 
     // Fill the 2D array according to the LCS algorithm
